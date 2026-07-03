@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "..\css\index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /></head>
+<body>
+    <header>
+        <div class = "section menu">
+            <div class = "container">
+                <button class = "menu-btn">
+                    <span class = "material-symbols-outlined">menu</span>
+                </button>
+                <div class = "menu-item">
+                    <a class = "menu-link active" href = "index.html">Home</a>
+                    <a class = "menu-link" href = "destination-detail.html">Destinations</a>
+                    <a class = "menu-link" href = "tour-detail.html">Tours</a>
+                    <a class = "menu-link" href = "blog-detail.html">Blog</a>
+                    <a class = "menu-link" href = "#">About</a>
+                </div>
+                <h1 class = "logo">L'ÉVREUX TRAVELÉ</h1>
+                <button class = login-btn id = "login-btn">
+                    <span class = "material-symbols-outlined">login</span>
+                    <span style = "font-size: 17px;">Login</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div id="menu-overlay" class="menu-overlay"></div>
+    <div id="sidebar-menu" class="sidebar-menu">
+        <div class="sidebar-header">
+            <h2 class="sidebar-logo">L'ÉVREUX</h2>
+            <button id="close-btn" class="close-btn">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+        </div>
+        <div class="sidebar-links">
+            <a href="destination-detail.html" class="sidebar-link">
+                <span class="material-symbols-outlined">public</span> Destinations
+            </a>
+            <a href="tour-detail.html" class="sidebar-link">
+                <span class="material-symbols-outlined">auto_stories</span> Tours
+            </a>
+            <a href="blog-detail.html" class="sidebar-link">
+                <span class="material-symbols-outlined">article</span> Blog
+            </a>
+            <a href="#" class="sidebar-link">
+                <span class="material-symbols-outlined">info</span> About
+            </a>
+        </div>
+    </div>
+    <div class="section banner" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/banner.jpg');">
+        <div class="container banner-container">
+            <div class="banner-content">
+                <p class="subtitle">CURATED ESCAPES FOR THE DISCERNING TRAVELER</p>
+                <h1 class="banner-title">The 2024 Global Collection</h1>
+
+                <div class="search-bar">
+                    <div class="search-group location">
+                        <span class="material-symbols-outlined search-icon">location_on</span>
+                        <input type="text" placeholder="Where would you like to escape?">
+                    </div>
+
+                    <div class="search-group travelers">
+                        <label for="traveler-select" class="label">TRAVELERS</label>
+                        <select id="traveler-select" class="value-select">
+                            <option value="1">1 Guest</option>
+                            <option value="2" selected>2 Guests</option> <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                            <option value="5">5+ Guests</option>
+                        </select>
+                    </div>
+
+                    <button class="search-btn">SEARCH</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src = "..\js\index.js"></script>
+</body>
+</html>
