@@ -3,6 +3,8 @@ var closeBtn = document.getElementById("close-btn");
 var sidebar = document.getElementById("sidebar-menu");
 var overlay = document.getElementById("menu-overlay");
 var loginBtn = document.getElementById("login-btn");
+var slider = document.getElementById("mySlider");
+var sliderValue = document.getElementById("slider-value");
 
 function openMenu() {
     sidebar.classList.add('open');
@@ -18,6 +20,15 @@ function login(){
     window.location.href = "auth.html";
 }
 
+function formatCurrency(value) {
+    return '$' + parseInt(value).toLocaleString();
+}
+
+function updateSliderValue() {
+    sliderValue.textContent = formatCurrency(this.value);
+}
+
+slider.addEventListener("input", updateSliderValue);
 menuBtn.addEventListener('click', openMenu);
 closeBtn.addEventListener('click', closeMenu);
 overlay.addEventListener('click', closeMenu);
