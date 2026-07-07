@@ -17,7 +17,7 @@ function closeMenu() {
 }
 
 function login(){
-    window.location.href = "auth.html";
+    window.location.href = "html/auth.html";
 }
 
 function formatCurrency(value) {
