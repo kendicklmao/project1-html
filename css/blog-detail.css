@@ -32,3 +32,44 @@ h1, h2, h3, h4, h5, h6 {
 p{
     color: #838383;
 }
+.blog-left {
+    float: left;
+    width: 68%;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #eeeeee;
+}
+.blog-right {
+    float: right;
+    width: 28%;
+}
+.post-blockquote {
+    float: left;
+    width: 100%;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffffff;
+    border-left: 4px solid #343434;
+    font-style: italic;
+}
+.related-box {
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #eeeeee;
+    margin-bottom: 20px;
+}
+.author-info {
+    float: left;
+    width: 100%;
+    background-color: #fbfbfb;
+    padding: 15px;
+    margin-top: 30px;
+    border: 1px solid #eeeeee;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
