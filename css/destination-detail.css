@@ -1,34 +1,150 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    transition: all 300ms;
-}
-
-body {
-    background-color: #fbfbfb;
-    font-size: 14px;
-    font-family: "Be Vietnam Pro", sans-serif;
-    line-height: 1.5;
-}
-
-.section {
-    float: left;
+img{
+    height: 500px;
     width: 100%;
-    overflow: hidden;
 }
-
-.container {
+.bannertext{
+    position: absolute; 
+    top: 40%; 
+    left: 300px;          
+    padding: 20px;
+}
+.noidung{
+    gap: 5%;
+    display: flex;
+    padding: 5%;
+    margin-left: 90px;
+}
+.noidung2{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.noidung1{
+    width: 60%;
+}
+.diadiem{
+    display: flex;
+    gap: 6%;
+    padding-bottom: 10px;
+}
+.diadiem1{
+    width: 30%;
+    border-radius: 12px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.diadiem2{
+    width: 30%;
+    border-radius: 12px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.diadiem3{
+    width: 30%;
+    border-radius: 12px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.tieude{
+    justify-self: center;
+    margin: 20px;
+}
+.container2 {
     width: 100%;
+    max-width: 1500px;
     margin: 0 auto;
-    float: none;
-    position: relative;
+    gap: 40px;
+    padding: 10px 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
-
-h1, h2, h3, h4, h5, h6 {
-    color: #343434;
+.backgr{
+    background-color: antiquewhite;
 }
-
-p{
-    color: #838383;
+.anh2{
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    margin-top: 10px;
+}
+/* .p2{
+    display: flex; */
+/* } */
+.p1{
+    width: 42%;
+    height: 50%;
+}
+.p1 img{
+    height: 100%;
+    width: 100%;
+}
+.pp img{
+    
+    height: 100%;
+    width: 100%;
+}
+.pp{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 2%;
+}
+.p2{
+    height: 100%;
+}
+.a1{
+    width: 50%;
+}
+.a2{
+    width: 50%;
+}
+.ppp img{
+    width: 36.5em;
+    height: 100%;
+}
+.ppp{
+    height: 70%;
+    margin-top: 10px;
+}
+.tieude2{
+    margin: 15px;
+}
+.banhcan{
+    display: flex;
+    gap: 2%;
+    justify-content:  center;
+    background-color: rgb(122, 122, 122);
+    border-radius: 12px;
+    padding-top: 10px;
+}
+.mon{
+    display: flex;
+    padding: 90px;
+    justify-content: center;
+    gap: 2%;
+}
+.lauga{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    background-color: rgb(122, 122, 122);
+    border-radius: 12px;
+    padding-top: 10px;
+}
+.b1 img{
+    height: 9em;
+}
+.b2 img{
+    height: 9em;
+}
+.backgr2{
+    background-color: rgb(59, 57, 57);
+}
+.ten2{
+    text-align: center;
+    padding: 20px;
+}
+.map{
+    text-align: center;
 }
