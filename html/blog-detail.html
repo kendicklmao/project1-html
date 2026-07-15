@@ -6,19 +6,33 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel = "stylesheet" href = "..\css\blog-detail.css">
+    <link rel = "stylesheet" href = "../css/blog-detail.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
 
-    <header class="section" style="background-color: #ffffff; padding: 15px 0; border-bottom: 1px solid #eeeeee;">
-        <div class="container clearfix">
-            <div style="float: left; font-size: 22px; font-weight: bold; color: #343434;">Logo Nhóm 2</div>
-            <div style="float: right; margin-top: 5px;">
-                <a href="../index.html" style="margin-left: 20px; text-decoration: none; color: #343434;">Trang chủ</a>
-                <a href="#" style="margin-left: 20px; text-decoration: none; color: #343434; font-weight: bold;">Bài viết</a>
+<header>
+    <div class = "section menu">
+        <div class = "container">
+            <button class = "menu-btn">
+                <span class = "material-symbols-outlined">menu</span>
+            </button>
+            <div class = "menu-item">
+                <a class = "menu-link" href = "../index.html">Home</a>
+                <a class = "menu-link" href = "destination-detail.html">Destinations</a>
+                <a class = "menu-link" href = "tour-detail.html">Tours</a>
+                <a class = "menu-link active" href = "blog-detail.html">Blog</a>
+                <a class = "menu-link" href = "#">About</a>
             </div>
+            <h1 class = "logo">L'ÉVREUX TRAVELÉ</h1>
+            <button class = login-btn id = "login-btn">
+                <span class = "material-symbols-outlined">login</span>
+                <span style = "font-size: 17px;">Login</span>
+            </button>
         </div>
-    </header>
+    </div>
+</header>
 
     <main class="section" style="padding: 40px 0;">
         <div class="container clearfix">
@@ -114,11 +128,44 @@
         </div>
     </main>
 
-    <footer class="section" style="background-color: #343434; color: #ffffff; padding: 30px 0; text-align: center; margin-top: 40px;">
-        <div class="container">
-            <p style="font-size: 13px; color: #cccccc;">&copy; 2026 Dự án học tập Nhóm 2 - Aptech. Thiết kế bởi XYZ.</p>
+<footer class = footer>
+    <div class = "footer-container">
+        <div class = "brand">
+            <h2>L'ÉVREUX</h2>
+            <p>Defining the next generation of puposeful, slow, and sophisticated luxury travel.</p>
         </div>
-    </footer>
-
+        <div class="footer-column">
+            <a href="#" style = "color: #343434">CURATIONS</a>
+            <a href="#">THE 2024 COLLECTION</a>
+            <a href="#">LAST MINUTE ESCAPES</a>
+            <a href="#">PRIVATE ESTATES</a>
+            <a href="#">CHARTERED FLIGHTS</a>
+        </div>
+        <div class="footer-column">
+            <a href="#" style = "color: #343434">PHILOSOPHY</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">IMPACT & SUSTAINABILITY</a>
+            <a href="#">THE EDITORIAL</a>
+            <a href="#">PRESS OFFICE</a>
+        </div>
+        <div class="footer-column">
+            <a href="#" style = "color: #343434">CONTACT</a>
+            <a href="#">CONCIERGE DESK</a>
+            <a href="#">MEMBER SUPPORT</a>
+            <a href="#">PRIVACY POLICY</a>
+            <a href="#">TERMS OF SERVICE</a>
+        </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+        <p style = "text-align: center">© 2024 L'ÉVREUX TRAVEL. ALL RIGHTS RESERVED.</p>
+        <div class="social">
+            <a href="#"><i class="fa-solid fa-globe"></i></a>
+            <a href="#"><i class="fa-regular fa-envelope"></i></a>
+            <a href="#"><i class="fa-solid fa-phone"></i></a>
+        </div>
+    </div>
+</footer>
+<script src="../js/tour-detail.js"></script>
 </body>
 </html>

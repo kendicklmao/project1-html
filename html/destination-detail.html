@@ -9,29 +9,54 @@
     <link rel = "stylesheet" href = "../css/index.css">
     <link rel = "stylesheet" href = "../css/destination-detail.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /></head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
-<header>
-        <div class = "section menu">
-            <div class = "container">
-                <button class = "menu-btn">
-                    <span class = "material-symbols-outlined">menu</span>
-                </button>
-                <div class = "menu-item">
-                    <a class = "menu-link active" href = "index.html">Home</a>
-                    <a class = "menu-link" href = "html/destination-detail.html">Destinations</a>
-                    <a class = "menu-link" href = "html/tour-detail.html">Tours</a>
-                    <a class = "menu-link" href = "html/blog-detail.html">Blog</a>
-                    <a class = "menu-link" href = "#">About</a>
-                </div>
-                <h1 class = "logo">L'ÉVREUX TRAVELÉ</h1>
-                <button class = login-btn id = "login-btn">
-                    <span class = "material-symbols-outlined">login</span>
-                    <span style = "font-size: 17px;">Login</span>
-                </button>
-            </div>
-        </div>
-    </header>
+
 <body>
+<header>
+    <div class = "section menu">
+        <div class = "container">
+            <button class = "menu-btn">
+                <span class = "material-symbols-outlined">menu</span>
+            </button>
+            <div class = "menu-item">
+                <a class = "menu-link" href = "../index.html">Home</a>
+                <a class = "menu-link active" href = "destination-detail.html">Destinations</a>
+                <a class = "menu-link" href = "tour-detail.html">Tours</a>
+                <a class = "menu-link" href = "blog-detail.html">Blog</a>
+                <a class = "menu-link" href = "#">About</a>
+            </div>
+            <h1 class = "logo">L'ÉVREUX TRAVELÉ</h1>
+            <button class = login-btn id = "login-btn">
+                <span class = "material-symbols-outlined">login</span>
+                <span style = "font-size: 17px;">Login</span>
+            </button>
+        </div>
+    </div>
+</header>
+<div id="menu-overlay" class="menu-overlay"></div>
+<div id="sidebar-menu" class="sidebar-menu">
+    <div class="sidebar-header">
+        <h2 class="sidebar-logo">L'ÉVREUX</h2>
+        <button id="close-btn" class="close-btn">
+            <span class="material-symbols-outlined">close</span>
+        </button>
+    </div>
+    <div class="sidebar-links">
+        <a href="html/destination-detail.html" class="sidebar-link">
+            <span class="material-symbols-outlined">public</span> Destinations
+        </a>
+        <a href="html/tour-detail.html" class="sidebar-link">
+            <span class="material-symbols-outlined">auto_stories</span> Tours
+        </a>
+        <a href="html/blog-detail.html" class="sidebar-link">
+            <span class="material-symbols-outlined">article</span> Blog
+        </a>
+        <a href="#" class="sidebar-link">
+            <span class="material-symbols-outlined">info</span> About
+        </a>
+    </div>
+</div>
     <section>
         <div class="container1">
             <div class="banner1">
@@ -290,6 +315,6 @@
             </div>
         </div>
     </footer>
-
+<script src="../js/tour-detail.js"></script>
 </body>
 </html>

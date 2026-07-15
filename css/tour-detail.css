@@ -701,3 +701,18 @@
     align-items:flex-start;
     gap:80px;
 }
+
+.social{
+  display:flex;
+  gap:35px;
+}
+
+.social a{
+  color:#555;
+  font-size:24px;
+  transition:.3s;
+}
+
+.social a:hover{
+  color:#000;
+}
